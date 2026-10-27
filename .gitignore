@@ -1,3 +1,20 @@
 .DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.pip-tmp/
+.vendor/
+.venv/
+venv/
+*.egg-info/
+.env
+
+# Generated model and report artifacts are intentionally not committed.
+models/*.joblib
+reports/*.json
+reports/*.csv
+data/raw/*.csv
+data/processed/*.csv
 Thumbs.db
 *.log
