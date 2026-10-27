@@ -40,6 +40,14 @@ python -m src.data_generator --output data/demo_network_flows.csv --samples-per-
 python -m src.train
 ```
 
+For the simplest classroom demonstration, run the complete workflow with one command:
+
+```powershell
+python demo.py
+```
+
+This prints the generated threat classes, evaluation metrics, per-class F1 scores, and predictions for normal and suspicious flows.
+
 Training writes the model to `models/threat_detector.joblib` and evaluation results to `reports/metrics.json`. These generated artifacts are ignored by Git so they can be rebuilt for each environment.
 
 Run the test suite:
@@ -73,6 +81,8 @@ Create a JSON file with one network flow using the fields in `src/features.py`, 
 ```powershell
 python -m src.predict --input path\to\flow.json
 ```
+
+An example port-scan flow is included at `examples/port_scan_flow.json`.
 
 ## Use a real dataset
 

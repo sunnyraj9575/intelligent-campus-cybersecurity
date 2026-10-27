@@ -1,0 +1,18 @@
+{
+  "duration_seconds": 24,
+  "bytes_sent": 12000,
+  "bytes_received": 5000,
+  "packets_sent": 180,
+  "packets_received": 90,
+  "failed_logins": 2,
+  "unique_dst_ports": 55,
+  "connection_rate": 58,
+  "dns_queries": 2,
+  "external_connections": 16,
+  "payload_entropy": 2.8,
+  "src_reputation": 0.18,
+  "protocol": "tcp",
+  "service": "other",
+  "direction": "external_to_internal",
+  "auth_method": "none"
+}
