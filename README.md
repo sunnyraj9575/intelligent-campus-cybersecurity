@@ -14,6 +14,14 @@ The repository includes:
 
 The demo data is intentionally synthetic. For a real deployment, replace it with labelled flow records collected under your institution's privacy, governance, and security policies.
 
+## Project website
+
+The project overview website is published with GitHub Pages at:
+
+<https://sunnyraj9575.github.io/intelligent-campus-cybersecurity/>
+
+The website is a static overview. The prediction API is a local demo and must be started on the computer running the project; the public site does not receive or analyze live network traffic.
+
 ## Threat classes
 
 The baseline classifier distinguishes six classes:
